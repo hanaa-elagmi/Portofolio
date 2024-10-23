@@ -95,6 +95,13 @@ cbx.addEventListener('click', () => {
 let projects = [];
 let JS = [
     {
+        name: "Weather Api",
+        img: "Images/Projects/WeatherApi.jpg",
+        repoLink: "https://github.com/hanaa-elagmi/Weather-Api",
+        DemoLink: "https://hanaa-elagmi.github.io/Weather-Api/"
+    },
+    {
+
         name: "Calculator",
         img: "Images/Projects/calc.png",
         repoLink: "https://github.com/hanaa-elagmi/Calculater",
