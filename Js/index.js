@@ -95,6 +95,12 @@ cbx.addEventListener('click', () => {
 let projects = [];
 let JS = [
     {
+        name: "KIARA Store",
+        img: "Images/Projects/kiara.png",
+        repoLink: "https://github.com/hanaa-elagmi/Kiara",
+        DemoLink: "https://hanaa-elagmi.github.io/Kiara/"
+    },
+    {
         name: "Weather Api",
         img: "Images/Projects/WeatherApi.jpg",
         repoLink: "https://github.com/hanaa-elagmi/Weather-Api",
@@ -158,7 +164,12 @@ let ANGULAR = [
 ];
 
 let BackEnd = [
-
+    {
+        name: "KIARA Backend",
+        img: "Images/Projects/backend.png",
+        repoLink: "https://github.com/hanaa-elagmi/Kiara-Backend",
+        DemoLink: "https://github.com/hanaa-elagmi/Kiara-Backend"
+    }
 ]
 let items = document.querySelectorAll(".ProjectTypes .item")
 items[0].style.borderBottom = "2px solid white";
