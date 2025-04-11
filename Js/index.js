@@ -95,6 +95,12 @@ cbx.addEventListener('click', () => {
 let projects = [];
 let JS = [
     {
+        name: "ProductCatolog",
+        img: "Images/Projects/",
+        repoLink: "https://github.com/hanaa-elagmi/ProductCatalog",
+        DemoLink: "https://hanaa-elagmi.github.io//"
+    },
+    {
         name: "KIARA Store",
         img: "Images/Projects/kiara.png",
         repoLink: "https://github.com/hanaa-elagmi/Kiara",
