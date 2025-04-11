@@ -96,7 +96,7 @@ let projects = [];
 let JS = [
     {
         name: "ProductCatolog",
-        img: "Images/Projects/",
+        img: "Images/Projects/ProductCatalog.png",
         repoLink: "https://github.com/hanaa-elagmi/ProductCatalog",
         DemoLink: "https://hanaa-elagmi.github.io//"
     },
