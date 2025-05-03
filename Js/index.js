@@ -169,7 +169,7 @@ let BackEnd = [
         name: "ProductCatolog",
         img: "Images/Projects/ProductCatalog.png",
         repoLink: "https://github.com/hanaa-elagmi/ProductCatalog",
-        DemoLink: "https://hanaa-elagmi.github.io//"
+        DemoLink: "https://veon.runasp.net/"
     },
     {
         name: "KIARA Backend",
