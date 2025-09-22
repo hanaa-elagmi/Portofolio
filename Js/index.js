@@ -1,3 +1,5 @@
+
+
 let loading = document.querySelector(".loading");
 loading.style.display = "flex";
 
@@ -49,6 +51,7 @@ let backgrounds = [
     {
         name: "bg1",
         src: "Images/bg1.png"
+        
     },
     {
         name: "bg2",
@@ -73,7 +76,8 @@ cbx.addEventListener('click', () => {
 
     if (imgid == "bg1") {
         imgelement.src = backgrounds[1].src;
-        imgelement.id = backgrounds[1].name
+        imgelement.id = backgrounds[1].name;
+        
     } else {
         imgelement.src = backgrounds[0].src;
         imgelement.id = backgrounds[0].name
@@ -302,10 +306,5 @@ form.addEventListener('submit', (e) => {
 
 
 
-let n = 24;
- let l = 0, r = 100, ans = n;
-  while(l <= r) { let mid = Math.floor((l + r) / 2); //50 
-     if(mid * mid <= n) { ans = mid; l = mid + 1; } //
-     else { r = mid - 1; } } //49  24 
-     print(ans);
+
 
